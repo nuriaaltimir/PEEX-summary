@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": false,
+    "link": false,
+    "text": "Nuria Altimir for PEEX"
+  },
+  "text": {
+    "more": "Figure 3 in  Lappalainen et al. 2020 XXXXXXX . Overview of the subjects covered shown as connections between keywords and themes covered within papers. The size of the circles is proportional to the times the item is present and the lines between them show the connections. The closeness between any two circles is related to the frequency they occur together. This figure shows the community structure and allows to see the groups of subjects that tend to co-occur and how the themes relate to the clusters. Network layout in Circle Pack distributed according to modularity classes. Keyword labels showed here for the largest nodes. ",
+    "intro": "Figure 3. Lappalainen et al. XXXXX. Click node to see its connections. Search through keywords. Return to all network from magnifying glass. Author: Nuria Altimir",
+    "title": "PEEX"
+  },
+  "legend": {
+    "edgeLabel": "Connections",
+    "colorLabel": "Themes and keywords",
+    "nodeLabel": "KeyWord"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": false
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "line",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#fff",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 5,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 12
+    },
+    "graphProperties": {
+      "maxEdgeSize": 15,
+      "minEdgeSize": 0.5,
+      "minNodeSize": 1,
+      "maxNodeSize": 105
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
